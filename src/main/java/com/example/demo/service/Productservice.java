@@ -27,10 +27,6 @@ public class Productservice {
 		productRepository.save(product);
 	}
 
-	@Transactional
-	public void deleteProduct(Integer productId) {
-
-		productRepository.deleteById(productId);
-	}
+	
 
 }

@@ -27,9 +27,6 @@ public class Componentservice {
 		componentRepository.save(component);
 	}
 
-	@Transactional
-	public void deleteComponent(Integer id) {
-
-		componentRepository.deleteById(id);
-	}
+	
+	
 }
